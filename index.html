@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>HTML-Workshop</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h1>Home</h1>
+                <img src="./res/developer.webp" alt="developer coding" />
+            </section>
+            <section id="about">
+                <ol>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum.
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OBtiP2IFCu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id="contact">
+                <form action="#">
+                    <label for="full-name">Full Name: </label>
+                    <input type="text" name="full-name" id="full-name">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                    <label for="comments">Comments: </label>
+                    <textarea name="Comments" id="comments" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        
+    </body>
+</html>
